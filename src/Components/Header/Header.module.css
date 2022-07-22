@@ -1,0 +1,24 @@
+.header {
+  position: fixed;
+  padding: 0px 20px;
+  width: 100%;
+  z-index: 150;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  transition: all ease-in-out 0.5s;
+}
+
+.logo img {
+  width: 140px;
+  height: 80px;
+}
+.icone img {
+  width: 32px;
+  height: 35px;
+  border-radius: 3px;
+}
+.header.headerMove {
+  background: #141414;
+}
